@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ament_ruff</name>
+  <version>0.0.1</version>
+  <description>Python Linter/Formatter using ruff</description>
+  <maintainer email="benjamin.andrew@swri.org">Ben Andrew</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <test_depend>ament_copyright</test_depend>
+
+  <depend>python3-pytest-ruff-pip</depend>
+  <depend>python3-unidiff</depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
