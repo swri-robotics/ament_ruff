@@ -11,7 +11,7 @@ How to run the check from the command line?
 -------------------------------------------
 
 The command line tool is provided by the package `ament_ruff
-<https://github.com/DangitBen/ament_ruff/tree/main/ament_ruff>`_.
+<https://github.com/swri-robotics/ament_ruff/tree/main/ament_ruff>`_.
 
 
 How to run the check from within a CMake ament package as part of the tests?

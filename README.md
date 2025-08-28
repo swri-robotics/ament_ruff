@@ -26,7 +26,7 @@ Clone this repository into your workspace and build it:
 # make a workspace if you don't have one
 mkdir -p ~/ws/ament_ruff/src
 cd ~/ws/ament_ruff/src
-git clone https://github.com/DangitBen/ament_ruff.git
+git clone https://github.com/swri-robotics/ament_ruff.git
 
 cd ..
 colcon build

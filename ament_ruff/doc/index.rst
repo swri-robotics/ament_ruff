@@ -29,4 +29,4 @@ How to run the check from within a CMake ament package as part of the tests?
 ----------------------------------------------------------------------------
 
 The CMake integration is provided by the package `ament_cmake_ruff
-<https://github.com/DangitBen/ament_ruff/tree/main/ament_cmake_ruff>`_.
+<https://github.com/swri-robotics/ament_ruff/tree/main/ament_cmake_ruff>`_.
