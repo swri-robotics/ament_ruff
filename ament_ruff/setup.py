@@ -15,7 +15,6 @@ setup(
         'ruff',
         'setuptools',
         'unidiff',
-        'xml',
     ],
     package_data={
         '': [
