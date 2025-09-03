@@ -18,6 +18,12 @@ Install ruff first:
 
 ```bash
 pip install ruff
+
+# You may have to set your path to include ruff's binary location:
+export PATH=$PATH:$HOME/.local/bin
+
+# Or do so permanently in bash
+echo "export PATH=$PATH:$HOME/.local/bin" >> .bashrc
 ```
 
 Clone this repository into your workspace and build it:
