@@ -118,8 +118,12 @@ def main(argv=sys.argv):
 
     ruff_argv.extend(args.paths)
 
-    out_check = subprocess.run(['ruff', 'check', *ruff_argv, '--diff'], capture_output=True, text=True)
-    out_format = subprocess.run(['ruff', 'format', *ruff_argv, '--diff'], capture_output=True, text=True)
+    out_check = subprocess.run(
+        ['ruff', 'check', *ruff_argv, '--diff'], capture_output=True, text=True
+    )
+    out_format = subprocess.run(
+        ['ruff', 'format', *ruff_argv, '--diff'], capture_output=True, text=True
+    )
     ruff_find_files = subprocess.run(
         ['ruff', 'check', *ruff_argv, '--show-files'], capture_output=True, text=True
     )
