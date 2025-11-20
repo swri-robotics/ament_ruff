@@ -152,9 +152,9 @@ def main(argv=sys.argv[1:]):
             )
             return 0
         else:
-            print('Reformat failed! Some may not be automatically fixable.')
+            print('Reformat failed! Some failures may not be automatically fixable.')
             print(f'Check output:\n{res_check.stderr.decode() + res_check.stdout.decode()}')
-            print(f'\nFormat output: {res_format.stderr.decode() + res_format.stdout.decode()}')
+            print(f'\nFormat output:\n{res_format.stderr.decode() + res_format.stdout.decode()}')
             return 1
 
     if not file_count:
